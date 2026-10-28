@@ -1,0 +1,13 @@
+# Finora
+
+> Application web gratuite de suivi de budget personnel (français). Sans compte, sans publicité, sans cookie : toutes les données restent sur l'appareil de l'utilisateur, rien n'est envoyé à un serveur.
+
+Fonctions : comptes bancaires, dépenses, rémunérations, transferts, placements, factures (photo ou PDF, lecture automatique sur l'appareil), analyses mois par mois, sauvegarde et export Excel, fonctionnement hors connexion.
+
+## Pages
+- [Application](./index.html)
+- [Politique de confidentialité](./confidentialite.html)
+- [Cookies et stockage](./cookies.html)
+- [Conditions d'utilisation](./conditions.html)
+- [Mentions légales](./mentions-legales.html)
+- [Accessibilité](./accessibilite.html)

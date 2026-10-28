@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cookies et stockage · Finora</title>
+<meta name="description" content="Finora n&#x27;utilise aucun cookie ni traceur publicitaire : seulement le stockage local indispensable, exempté de consentement.">
+<meta name="robots" content="index,follow">
+<link rel="icon" href="icon-192.png">
+<style>
+:root{color-scheme:light dark;--bg:#ececee;--card:#fbfbfc;--text:#0a0a0b;--text2:rgba(10,10,11,.7);--line:rgba(10,10,11,.1);--ink:#0a0a0b;--on:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#050506;--card:#141416;--text:#f7f7f8;--text2:rgba(247,247,248,.72);--line:rgba(255,255,255,.1);--ink:#f7f7f8;--on:#000}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",system-ui,sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.wrap{max-width:760px;margin:0 auto;padding:22px 18px 60px}
+a{color:var(--text);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:6px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;text-decoration:none;letter-spacing:-.02em}
+.brand svg{width:44px;height:29px}.brand path{fill:none;stroke:currentColor;stroke-width:30;stroke-linecap:round;stroke-linejoin:round}.brand circle{fill:currentColor}
+.back{display:inline-flex;align-items:center;height:38px;padding:0 14px;border-radius:19px;background:var(--ink);color:var(--on);font-weight:650;font-size:14.5px;text-decoration:none}
+nav ul{list-style:none;margin:0 0 22px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+nav a{display:inline-block;padding:7px 12px;border-radius:14px;background:var(--card);text-decoration:none;font-size:14px;font-weight:600;box-shadow:0 0 0 1px var(--line)}
+nav a[aria-current=page]{background:var(--ink);color:var(--on)}
+h1{font-size:32px;line-height:1.15;letter-spacing:-.025em;margin:6px 0 6px}
+.maj{color:var(--text2);font-size:14px;margin:0 0 22px}
+section{background:var(--card);border-radius:20px;padding:6px 20px 14px;margin:0 0 14px;box-shadow:0 0 0 1px var(--line)}
+h2{font-size:19px;letter-spacing:-.01em;margin:16px 0 6px}
+p,li{color:var(--text)}ul{padding-left:20px}
+.lead{font-size:17px;font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:14.5px;margin:8px 0}
+th,td{text-align:left;padding:9px 8px;border-top:1px solid var(--line);vertical-align:top}
+th{font-size:13px;color:var(--text2);text-transform:uppercase;letter-spacing:.03em;border-top:0}
+.tw{overflow-x:auto}
+footer{color:var(--text2);font-size:14px;margin-top:26px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="./"><svg viewBox="80 120 380 250" aria-hidden="true" focusable="false"><path d="M102 348 205 245l75 63 128-140"/><circle cx="408" cy="168" r="40"/></svg><span>Finora</span></a><a class="back" href="./">Ouvrir l'application</a></header>
+<nav aria-label="Informations légales"><ul><li><a href="mentions-legales.html">Mentions légales</a></li><li><a href="confidentialite.html">Politique de confidentialité</a></li><li><a href="cookies.html" aria-current=page>Cookies et stockage</a></li><li><a href="conditions.html">Conditions d'utilisation</a></li><li><a href="accessibilite.html">Accessibilité</a></li></ul></nav>
+<main>
+<h1>Cookies et stockage</h1>
+<p class="maj">Dernière mise à jour : 27 octobre 2026</p>
+
+<section>
+<p class="lead">Finora n'utilise aucun cookie, aucun traceur publicitaire et aucune mesure d'audience. C'est pour cela qu'il n'y a pas de bandeau de consentement.</p>
+</section>
+<section>
+<h2>Pourquoi pas de bandeau ?</h2>
+<p>L'article 82 de la loi Informatique et Libertés impose de demander ton accord avant de lire ou d'écrire des informations sur ton appareil, sauf quand c'est strictement nécessaire au service que tu demandes expressément. Finora n'enregistre que ce qui est indispensable pour garder tes comptes et faire fonctionner l'application, y compris hors connexion. Rien n'est lu par un tiers ni utilisé pour de la publicité ou des statistiques. Aucun consentement n'est donc nécessaire.</p>
+</section>
+<section>
+<h2>Ce qui est enregistré sur ton appareil</h2>
+<div class="tw"><table>
+<thead><tr><th>Nom</th><th>Technique</th><th>Rôle</th><th>Durée</th></tr></thead>
+<tbody>
+<tr><td>finora.v2</td><td>Stockage local (localStorage)</td><td>Tes comptes, opérations, catégories, profil facultatif et réglages</td><td>Jusqu'à ce que tu les supprimes</td></tr>
+<tr><td>finora-files</td><td>Base locale (IndexedDB)</td><td>Tes factures (photos et PDF) et leurs aperçus</td><td>Jusqu'à ce que tu les supprimes</td></tr>
+<tr><td>keyval-store</td><td>Base locale (IndexedDB)</td><td>Données de langue française pour lire les photos de factures (créé seulement si tu utilises cette fonction)</td><td>Jusqu'à ce que tu effaces les données du site</td></tr>
+<tr><td>finora-v…</td><td>Cache de l'application (service worker)</td><td>Fichiers de l'application, pour qu'elle s'ouvre même sans internet</td><td>Remplacé à chaque mise à jour</td></tr>
+</tbody></table></div>
+</section>
+<section>
+<h2>Comment tout effacer</h2>
+<ul><li>Dans Finora : Paramètres → Mes données → Supprimer des données → Tout effacer.</li><li>Sur iPhone : supprime l'icône Finora de l'écran d'accueil, ou Réglages → Safari → Avancé → Données des sites web.</li><li>Sur ordinateur : réglages du navigateur → effacer les données du site.</li></ul>
+</section>
+</main>
+<footer><p>Finora — Votre argent, votre stratégie. Application gratuite, sans compte, sans publicité. Tes données restent sur ton appareil.</p></footer>
+</div>
+<script>
+// lien vers la page GitHub du projet, déduit de l'adresse du site (aucune donnée envoyée)
+(function(){var h=location.hostname,m=/^([a-z0-9-]+)\.github\.io$/i.exec(h);if(!m)return;var p=location.pathname.split("/").filter(Boolean)[0];
+var u="https://github.com/"+m[1]+(p&&!/\.html$/.test(p)?"/"+p:"");document.querySelectorAll("[data-repo]").forEach(function(a){a.href=u;a.textContent=u.replace("https://","")})})();
+</script>
+</body>
+</html>
